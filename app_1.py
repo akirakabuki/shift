@@ -3,13 +3,9 @@ import pulp
 import pandas as pd
 import matplotlib.pyplot as plt
 import japanize_matplotlib
-import os
-import sys
-# プロジェクトのルートディレクトリをsys.pathに追加
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 # ShiftSchedulerクラスとoptimization関数をインポート
-from src.ShiftScheduler import ShiftScheduler
+from ShiftScheduler import ShiftScheduler
 
 def optimization(calendar_df, staff_df):
     shift_sch = ShiftScheduler()
