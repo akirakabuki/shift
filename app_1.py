@@ -2,7 +2,6 @@ import streamlit as st
 import pulp
 import pandas as pd
 import matplotlib.pyplot as plt
-import japanize_matplotlib
 
 # ShiftSchedulerクラスとoptimization関数をインポート
 from ShiftScheduler import ShiftScheduler
