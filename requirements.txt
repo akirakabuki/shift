@@ -1,4 +1,5 @@
 pulp
 streamlit
 matplotlib
+packaging
 japanize_matplotlib
